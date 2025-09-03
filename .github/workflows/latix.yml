@@ -114,9 +114,9 @@ jobs:
         
         echo "Cache hit: ${{ steps.cache.outputs.cache-hit }}"
         if [ "${{ steps.cache.outputs.cache-hit }}" = "true" ]; then
-          echo "✅ Using cached comprehensive TeX Live installation!"
+          echo "✅ Using cached balanced TeX Live installation!"
         else
-          echo "✅ Fresh comprehensive TeX Live installation completed!"
+          echo "✅ Fresh balanced TeX Live installation completed!"
         fi
     
     - name: Enhanced LaTeX Compilation
